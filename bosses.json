@@ -1,0 +1,366 @@
+{
+  "main": [
+    {
+      "id": 1,
+      "name": "The Last Giant",
+      "area": "Forest of Fallen Giants",
+      "type": "main",
+      "description": "A large and ancient giant encountered in the Forest of Fallen Giants. Located down a wooden lift behind the locked door at the bottom of the ladder to the Cardinal Tower bonfire. The player will need to navigate the area past this bonfire in order to open the locked door and create a shortcut.",
+      "parents": [],
+      "unlocked_by_default": true
+    },
+    {
+      "id": 3,
+      "name": "Dragonrider",
+      "area": "Heide's Tower of Flame",
+      "type": "main",
+      "description": "One of the Bosses of Heide's Tower of Flame, the Dragonrider guards the passage way to No-Mans Wharf. Masterless Glencour can be summoned right outside the fog gate to assist with this fight.",
+      "parents": [],
+      "unlocked_by_default": true
+    },
+    {
+      "id": 2,
+      "name": "The Pursuer",
+      "area": "Forest of Fallen Giants",
+      "type": "main",
+      "description": "After defeating the last giant and taking his key, follow the path in the Forest of Fallen Giants.",
+      "parents": [1],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 4,
+      "name": "Old Dragonslayer",
+      "area": "Heide's Tower of Flame",
+      "type": "optional",
+      "description": "Boss behind the fog gate across a large drawbridge dropped by pulling a nearby lever, at Heide's Tower Of Flame. in which a dragon is guarding.",
+      "parents": [],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 5,
+      "name": "Flexile Sentry",
+      "area": "No-man's Wharf",
+      "type": "main",
+      "description": "Area boss of No-man's Wharf. Accessed by ringing a bell atop the Wharf that docks a ship.",
+      "parents": [3],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 6,
+      "name": "Lost Sinner",
+      "area": "Sinner's Rise",
+      "type": "main",
+      "description": "She is located deep within the lost bastion, in a dark cell. If she is killed in New Game+, her soul will be different when she dies.",
+      "parents": [5, 7],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 7,
+      "name": "Ruin Sentinels",
+      "area": "Lost Bastille",
+      "type": "main",
+      "description": "Area bosses of Lost Bastille. Accessed by the end of a hallway of a series of cell rooms.",
+      "parents": [2],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 8,
+      "name": "Belfry Gargoyles",
+      "area": "Belfry Luna",
+      "type": "optional",
+      "description": "They are also in an area guarded by the invasion-themed PvP Covenant Bell Keepers, so reaching them in online mode can be challenging.",
+      "parents": [7],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 9,
+      "name": "Skeleton Lords",
+      "area": "Huntsman's Copse",
+      "type": "main",
+      "description": "Huntsman's Copse, behind the waterfall area (past caves or narrow passage with red phantom).",
+      "parents": [5],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 31,
+      "name": "Executioner's Chariot",
+      "area": "Huntsman's Copse",
+      "type": "optional",
+      "description": "Situated in the Huntsman's Copse beyond a decaying wooden bridge and guarded by a hostile dark spirit NPC, The Executioner's Chariot awaits.",
+      "parents": [5],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 16,
+      "name": "Rato de moicano e sua gangue",
+      "area": "Grave of Saints",
+      "type": "main",
+      "description": "Upon traversing the mist beyond the second bonfire, the Royal Rat Vanguard awaits. Despite its outwardly regular rat appearance, it distinguishes itself with a notable giant mohawk on its back.",
+      "parents": [],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 10,
+      "name": "Covetous Demon",
+      "area": "Harvest Valley",
+      "type": "main",
+      "description": "This large monster is encountered in the first floor of Earthen Peak right after crossing Harvest Valley, after defeating him the player will unlock the Lower Earthen Peak bonfire.",
+      "parents": [9],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 18,
+      "name": "Royal Rat Authority",
+      "area": "Doors of Pharros",
+      "type": "optional",
+      "description": "It is located at Ordeal's End bonfire, which can be reached through Doors of Pharros.",
+      "parents": [14],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 11,
+      "name": "Mytha, the Baneful Queen",
+      "area": "Earthen Peak",
+      "type": "main",
+      "description": "Area boss of the Earthen Peak, directly in the middle of Harvest Valley.",
+      "parents": [10],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 12,
+      "name": "Smelter Demon",
+      "area": "Iron Keep",
+      "type": "optional",
+      "description": "The Smelter Demon awaits as a potential initial boss encounter within the Iron Keep. He is optional so if you have trouble dealing with him, it is better to come back to him after some time. If defeated, returning to his room will result in a Pursuer fight.",
+      "parents": [11],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 13,
+      "name": "Old Iron King",
+      "area": "Iron Keep",
+      "type": "main",
+      "description": "The second boss of Iron Keep; there is a nearby bonfire called Eygil's Idol, which is hidden at the top of a ladder in the room with flaming minotaur heads and spikes before the fog gate.",
+      "parents": [11, 12],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 14,
+      "name": "Scorpioness Najka",
+      "area": "Shaded Woods",
+      "type": "main",
+      "description": "She is found in the Shaded Ruins area of the Shaded Woods. To reach this fight, one must pass by many of the curse jars and lion guards, and for that reason it is a good idea to summon a phantom to assist immediately at the Shaded Ruins bonfire. It takes a branch from the past to reach your area.",
+      "parents": [],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 19,
+      "name": "Prowling Magus and Congregation",
+      "area": "Brightstone Cove Tseldora",
+      "type": "main",
+      "description": "Perhaps the weakest boss in the game, located in Brightstone Cove Tseldora.",
+      "parents": [14],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 15,
+      "name": "Duke's Dear Freja",
+      "area": "Brightstone Cove Tseldora",
+      "type": "main",
+      "description": "Area boss of Brightstone Cove Tseldora. Accessed by going through the whole map. Killing her in New Game+ grants the Moonlight Greatsword.",
+      "parents": [19],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 17,
+      "name": "The Rotten",
+      "area": "Black Gulch",
+      "type": "main",
+      "description": "Area boss of the Black Gulch, below The Gutter. the lowest place in the well",
+      "parents": [16, -1],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 20,
+      "name": "Looking Glass Knight",
+      "area": "Drangleic Castle",
+      "type": "main",
+      "description": "Located in the King's Passage, at the top of the castle. Defeating him in New Game+ grants you the Ring of Steel Protection +2.",
+      "parents": [30],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 30,
+      "name": "Twin Dragonrider",
+      "area": "Drangleic Castle",
+      "type": "main",
+      "description": "The game's most difficult boss, now in double dose. Located in Drangleic Castle.",
+      "parents": [17, 15, 13, 6],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 21,
+      "name": "Demon of Song",
+      "area": "Shrine of Amana",
+      "type": "main",
+      "description": "A giant, grotesque frog demon with a corpse skull and arms protruding from the sides of its mouth, and a long tail. Upon entering the boss area you can find the Demon of Song sitting and waiting, as if to lure prey in. The face will use its corpse arms to pull the upper and lower jaw of its body together to hide and protect itself, whilst making itself look like as if it is imitating an actual frog.",
+      "parents": [20],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 24,
+      "name": "Guardian Dragon",
+      "area": "Aldia's Keep",
+      "type": "main",
+      "description": "a red wyvern trapped in a large cage at the top of Aldia's Keep, which must be defeated to proceed to the Dragon Aerie. Different from the previous game, cutting its tail does not reward the player with any item whatsoever, only preventing it from using the Tail Whip attack. This boss is encountered multiple times later as an enemy, usually protecting items and crystal lizards in rock nests.",
+      "parents": [22],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 25,
+      "name": "Ancient Dragon",
+      "area": "Dragon Shrine",
+      "type": "optional",
+      "description": "Climb up through the Dragon Shrine past Aldia's Guard. The Ancient Dragon at the top can be avoided, but it drops an important item for the ending.",
+      "parents": [24],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 88,
+      "name": "DarkLurker",
+      "area": "Dark Chasm of Old",
+      "type": "optional",
+      "description": "Secret and optional boss of Dark Chasm of Old (accessed by joining the Pilgrims of Dark Covenant and lighting all 3 fires in the 3 Dark Old Zones, and jumping into the hole that usually is the exit in any of the 3 maps). This boss is only accessible by joining the Pilgrims of Dark covenant through Darkdiver Grandahl and completing its questline.",
+      "parents": [24],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 22,
+      "name": "Velstadt, the Royal Aegis",
+      "area": "Undead Crypt",
+      "type": "main",
+      "description": "Access the Crypt of the Dead through the Shrine of Amana. Velstadt guards the king's tomb — avoid touching the bells so as not to strengthen the boss.",
+      "parents": [21],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 23,
+      "name": "Vendrick",
+      "area": "Undead Crypt",
+      "type": "optional",
+      "description": "After Velstadt, access the secret chamber. Vendrick patrols without attacking — collect Giant Souls to reduce his defense before the confrontation.",
+      "parents": [26],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 26,
+      "name": "Giant Lord",
+      "area": "Memory of Jeigh",
+      "type": "main",
+      "description": "Use the Soul of the Last Giant in the Forest of Giants to access the Memories. The Giant Lord is in the battle memory atop the ruins.",
+      "parents": [24],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 27,
+      "name": "Throne Watcher & Throne Defender",
+      "area": "Throne of Want",
+      "type": "main",
+      "description": "Access the Throne of Desire with the four souls of the lords. The guardians must be defeated simultaneously or they will be resurrected.",
+      "parents": [26],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 28,
+      "name": "Nashandra",
+      "area": "Throne of Want",
+      "type": "main",
+      "description": "The final boss of the base game. Immediately after the guardians, Nashandra reveals her true form. Keep your distance from the Abyss she projects.",
+      "parents": [27],
+      "unlocked_by_default": false
+    },
+    {
+      "id": 29,
+      "name": "Aldia, Scholar of the First Sin",
+      "area": "Throne of Want",
+      "type": "main",
+      "description": "Exclusive boss for Scholar of the First Sin. Appears after Nashandra IF you have spoken to Aldia in three different locations. The true ending of the game.",
+      "parents": [28],
+      "unlocked_by_default": false
+    }
+  ],
+  "dlc": [
+    {
+      "id": 101,
+      "name": "Elana, the Squalid Queen",
+      "area": "Sunken King DLC – Shulva, Sanctum City",
+      "type": "main",
+      "description": "Access Shulva through the Sunken King DLC. Elana can summon Velstadt during the fight — eliminate the summoned monster quickly and focus on the quee",
+      "dlc": "Crown of the Sunken King"
+    },
+    {
+      "id": 102,
+      "name": "Sinh, the Slumbering Dragon",
+      "area": "Sunken King DLC – Dragon's Rest",
+      "type": "main",
+      "description": "The final boss of the Sunken King DLC. The dragon sleeps on the altar — upon awakening, it uses a lethal combination of toxic gas and physical attacks.",
+      "dlc": "Crown of the Sunken King"
+    },
+    {
+      "id": 103,
+      "name": "Afflicted Graverobber, Varg & Cerah",
+      "area": "Sunken King DLC – Cave of the Dead",
+      "type": "optional",
+      "description": "A trio of humans in the Sunken King DLC. Each has a different fighting style — isolate them one by one and use the environment to your advantage.",
+      "dlc": "Crown of the Sunken King"
+    },
+    {
+      "id": 104,
+      "name": "Aava, the King's Pet",
+      "area": "Old Ivory King DLC – Frozen Eleum Loyce",
+      "type": "main",
+      "description": "The guardian from the Ivory King DLC. Aava is invisible without the correct item — find the Eye of the Priestess in the area to reveal the boss.",
+      "dlc": "Crown of the Ivory King"
+    },
+    {
+      "id": 105,
+      "name": "Burnt Ivory King",
+      "area": "Old Ivory King DLC – Chaos Tomb",
+      "type": "main",
+      "description": "The final boss of the DLC. Defeat lost knights in the area to summon allies to the fight. The King emerges from the chaos with his armor ablaze.",
+      "dlc": "Crown of the Ivory King"
+    },
+    {
+      "id": 106,
+      "name": "Lud and Zallen, the King's Pets",
+      "area": "Old Ivory King DLC – Frigid Outskirts",
+      "type": "optional",
+      "description": "Two big cats in a dense blizzard. Considered one of the most difficult bosses in the game due to the weather conditions and the double fight.",
+      "dlc": "Crown of the Ivory King"
+    },
+    {
+      "id": 107,
+      "name": "Fume Knight",
+      "area": "Old Iron King DLC – Brume Tower",
+      "type": "main",
+      "description": "Raime, the Knight of Flames. Considered the most difficult boss in the game. his second phase covers the arena in flames. Patience is essential.",
+      "dlc": "Crown of the Old Iron King"
+    },
+    {
+      "id": 108,
+      "name": "Sir Alonne",
+      "area": "Old Iron King DLC – Memory of the Old Iron King",
+      "type": "optional",
+      "description": "The legendary knight of Raime. Accessible through the Memory of the Iron King. Extremely elegant and technical fighting style",
+      "dlc": "Crown of the Old Iron King"
+    },
+    {
+      "id": 109,
+      "name": "Smelter Demon (Blue)",
+      "area": "Old Iron King DLC – Brume Tower",
+      "type": "optional",
+      "description": "A bluer, more aggressive version of the original Smelter Demon. Found in a corridor of the Brume Tower — same pattern, but with more damage.",
+      "dlc": "Crown of the Old Iron King"
+    }
+  ]
+}
